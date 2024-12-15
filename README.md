@@ -50,7 +50,7 @@ The dataset file is stored locally and mounted into the Docker container for pro
 ### Running the Script
 1. Copy the dataset to the `spark-master` container:
    ```bash
-   docker cp data/netflix_titles.csv spark-master:/opt/bitnami/spark/data/netflix_titles.csv
+   docker cp -L netflix_titles_eda.py spark-master:/opt/bitnami/spark/netflix_eda.py
    ```
 
 2. Submit the PySpark job:
