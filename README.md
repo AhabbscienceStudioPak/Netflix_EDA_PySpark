@@ -39,17 +39,12 @@ The dataset file is stored locally and mounted into the Docker container for pro
    cd Netflix_EDA_PySpark
    ```
 
-2. Build the Docker image:
-   ```bash
-   docker-compose build
-   ```
-
-3. Start the Spark cluster:
+2. Start the Spark cluster:
    ```bash
    docker-compose up -d
    ```
 
-4. Verify that the services are running:
+3. Verify that the services are running:
    - Spark Master: [http://localhost:9090](http://localhost:9090)
 
 ### Running the Script
