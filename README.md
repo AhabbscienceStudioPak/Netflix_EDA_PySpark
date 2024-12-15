@@ -48,7 +48,7 @@ The dataset file is stored locally and mounted into the Docker container for pro
    - Spark Master: [http://localhost:9090](http://localhost:9090)
 
 ### Running the Script
-1. Copy the dataset to the `spark-master` container:
+1. Copy the python script to the `spark-master` container:
    ```bash
    docker cp -L netflix_titles_eda.py spark-master:/opt/bitnami/spark/netflix_eda.py
    ```
