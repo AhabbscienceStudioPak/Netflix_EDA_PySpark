@@ -1,7 +1,6 @@
 # Netflix EDA PySpark
 Exploratory Data Analysis (EDA) on Netflix datasets using PySpark. This project is part of the **CE408 - Cloud Computing Assignment** by **M. Ahabb Sheraz**.
 
----
 
 ## Overview
 This project demonstrates using PySpark to conduct an exploratory data analysis on the Netflix dataset. The analysis includes visualizations and insights derived from the dataset.
@@ -11,7 +10,7 @@ This project demonstrates using PySpark to conduct an exploratory data analysis 
 - Analysis of Netflix titles by genre, release year, and more.
 - Visualizations using Python libraries such as `matplotlib` and `seaborn`.
 
----
+
 
 ## Dataset
 The dataset used for this analysis is publicly available on [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) and contains information about Netflix titles, such as:
@@ -24,14 +23,13 @@ The dataset used for this analysis is publicly available on [Kaggle](https://www
 
 The dataset file is stored locally and mounted into the Docker container for processing.
 
----
 
 ## Requirements
 
 ### Software Requirements:
 - Docker and Docker Compose
 - Python 3.x (for local testing, if required)
----
+
 
 ## Setup Instructions
 
@@ -68,7 +66,7 @@ The dataset file is stored locally and mounted into the Docker container for pro
 
 3. Check the console output for analysis results and visualizations.
 
----
+
 
 ## Project Files
 
@@ -85,6 +83,6 @@ Netflix_EDA_PySpark/
 └── README.md                        # Project documentation
 ```
 
----
 
 ## Results
+![Demo Video](demo_video.mp4)
