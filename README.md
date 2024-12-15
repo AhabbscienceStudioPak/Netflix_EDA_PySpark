@@ -8,7 +8,6 @@ This project demonstrates using PySpark to conduct an exploratory data analysis 
 ### Features:
 - Data preprocessing with PySpark.
 - Analysis of Netflix titles by genre, release year, and more.
-- Visualizations using Python libraries such as `matplotlib` and `seaborn`.
 
 
 
@@ -85,4 +84,6 @@ Netflix_EDA_PySpark/
 
 
 ## Results
-![Demo Video](demo_video.mp4)
+https://github.com/user-attachments/assets/bcbefa2e-f280-4ffb-8e7a-4f7b084a6e4b
+
+
